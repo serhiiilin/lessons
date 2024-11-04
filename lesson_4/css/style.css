@@ -1,0 +1,51 @@
+/* скидання стилів */
+@import url("reset.css");
+
+* {
+    text-align: center;
+}
+
+[class*="_block"] {
+    background-color: aquamarine;
+}
+
+.header_title {
+    color: red;
+}
+
+.block,
+.main_text {
+    color: blue;
+}
+
+.main_text {
+    color: green;
+}
+
+.main_list {
+    color: purple;
+}
+
+.main_block_quote {
+    font-weight: bold;
+}
+
+.quote_style {
+    font-style: italic;
+}
+
+.main_block_about {
+    font-weight: inherit;
+}
+
+.main_block_about_text {
+    color: aqua;
+}
+
+#foot {
+    color: blueviolet;
+}
+
+#foot h3 {
+    color: red;
+}
