@@ -1,0 +1,95 @@
+/* скидання стилів */
+@import url("reset.css");
+
+/* Add fonts */
+
+@import url("fonts.css");
+
+/* Main style */
+
+
+body {
+    font-family: "Open Sans";
+    line-height: 2;
+    /* Перевести пікселі в частини: значення line-height поділити на значення font-size */
+    letter-spacing: 2px;
+    /* Встановлює інтервал між літерами (символами) */
+    white-space: normal;
+    /* - *nowrap* - забороняє переносити (розривати) рядок;
+- *normal* - (за замовчанням) не змінює (або скасовує раніше встановлене) значення.*/
+    word-spacing: 2px;
+    /* Встановлює інтервал між словами */
+}
+
+/* [class*="_block"] {
+    background-color: aquamarine;
+} */
+
+.header_title {
+    color: rgba(0, 0, 0, 0.544);
+    font-family: "Cabin", serif;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 3px 3px 5px #ff8000;
+}
+
+.block {
+    color: #8c8b8a;
+    font-family: "Open Sans", serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main_text,
+.list_style {
+    color: rgba(0, 0, 0, 0.452);
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 10px;
+    /* “Червоний рядок”. Встановлює відступ зліва у першого рядка тексту */
+}
+
+.main_text b {
+    text-decoration: line-through;
+}
+
+.main_list_subtitle {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-shadow: -3px -0px 5px #2fff00;
+}
+
+.main_block_quote {
+    font-weight: bold;
+}
+
+.quote_style {
+    font-style: italic;
+}
+
+.main_block_about {
+    font-weight: inherit;
+}
+
+.main_block_about_text {
+    color: aqua;
+}
+
+#foot {
+    color: blueviolet;
+}
+
+#foot h3 {
+    color: red;
+    line-height: 100%;
+    /* 90/90 */
+}
