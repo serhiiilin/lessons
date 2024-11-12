@@ -1,0 +1,44 @@
+/* Fonts css */
+
+/* add fonts >f1> select fonts */
+/* Moul */
+@import url(https://fonts.googleapis.com/css?family=Moul:regular);
+
+/* add fonts for google.fonts */
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Cabin */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+/* add fonts manually */
+/* Merriweather */
+
+/* @font-face {
+    font-family: "Merriweather";
+    src: local('Merriweather'),
+        url("../fonts/Merriweather-Regular.woff2") format(" woff2"),
+        url("../fonts/Merriweather-Regular.woff") format(" woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+/* Cabin */
+/* @font-face {
+    font-family: "Cabin";
+    src: local('Cabin'),
+        url("../fonts/Cabin-Bold.woff2") format(" woff2"),
+        url("../fonts/Cabin-Bold.woff") format(" woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+} */
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'),
+        url('../fonts/OpenSans-Light.woff2') format("woff2"),
+        url('../fonts/OpenSans-Light.woff') format("woff");
+    font-weight: 300;
+}
