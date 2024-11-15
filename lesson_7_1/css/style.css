@@ -1,0 +1,179 @@
+/* Add fonts */
+
+@import url("fonts.css");
+
+/* скидання стилів */
+@import url("reset.css");
+
+
+
+/* Main style */
+.block {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.block_license {
+    margin: 50px 0;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.21;
+    color: #37393F;
+}
+
+.sub_title_license {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+}
+
+#square {
+    width: 12px;
+    height: 12px;
+    background: #40DDB6;
+    display: inline-block;
+    margin-left: 42%;
+}
+
+.title_license {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 70px;
+    border-top: 5px solid red;
+    border-right: 5px dotted blue;
+    border-bottom: 5px double green;
+    border-left: 5px dashed yellow;
+    outline: 3px solid #000;
+}
+
+.title_licence_two {
+    margin-top: 100px;
+    margin-bottom: 11px;
+    border: 5px dotted blue;
+    border-radius: 5%;
+}
+
+#title_licence_two {
+    margin-top: 0;
+}
+
+.sub_title_license_two {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.46;
+    text-align: justify;
+    color: #7D7D7D;
+    margin-bottom: 24px;
+    outline: 3px dotted #40DDB6;
+    border: 1px solid #000;
+    border-radius: 20%;
+}
+
+#sub_title_license_two {
+    margin-bottom: 32px;
+}
+
+.title_licence_thee {
+    font-size: 30px;
+    line-height: 1.45;
+    margin-bottom: 8px;
+    box-shadow: 10px 10px 10px rgb(255, 0, 0);
+    outline: 3px solid #ff0000;
+}
+
+/* .title_licence_thee {
+    box-shadow:
+        51.6px 32.8px 20.4px rgba(0, 0, 0, 0.039),
+        68.8px 43.8px 29.5px rgba(0, 0, 0, 0.048),
+        78.7px 50.1px 35.4px rgba(0, 0, 0, 0.052),
+        88px 56.1px 41.3px rgba(0, 0, 0, 0.054),
+        103.4px 65.9px 50.6px rgba(0, 0, 0, 0.056),
+        157px 100px 80px rgba(0, 0, 0, 0.07);
+} */
+
+#title_licence_thee {
+    margin-bottom: 0;
+}
+
+.title_licence_thee span {
+    font-weight: 400;
+    font-size: 30px;
+    color: #40DDB6;
+    box-shadow:
+        51.6px 32.8px 20.4px rgba(0, 0, 0, 0.039),
+        68.8px 43.8px 29.5px rgba(0, 0, 0, 0.048),
+        78.7px 50.1px 35.4px rgba(0, 0, 0, 0.052),
+        88px 56.1px 41.3px rgba(0, 0, 0, 0.054),
+        103.4px 65.9px 50.6px rgba(0, 0, 0, 0.056),
+        157px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.sub_title_license_tree {
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 1.46;
+    font-size: 18px;
+    color: #40DDB6;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+#sub_title_license_tree {
+    margin-bottom: 0;
+}
+
+.sub_title_license_two span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #40DDB6;
+    line-height: 1.45;
+}
+
+/* Project_info */
+
+.block_project_info {
+    max-width: 830px;
+    margin: 0 auto;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 1.45;
+    color: #7D7D7D;
+    font-size: 18px;
+}
+
+.project_info_title {
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 40px;
+    color: #37393F;
+}
+
+.project_info_paragraf {
+    margin: 35px 0;
+}
+
+#project_info_paragraf {
+    margin-top: 13px;
+}
+
+.project_info_list {
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.project_info_list li {
+    list-style: inside;
+}
+
+.project_info_list_li::marker {
+    color: #000;
+}
+
+#project_info_list li {
+    list-style: none;
+}
